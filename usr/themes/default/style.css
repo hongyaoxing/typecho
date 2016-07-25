@@ -13,7 +13,7 @@ body {
   background-color: #FFF;
   color: #444;
   /*font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;*/
-  font-family: "Droid Serif", Georgia, "Times New Roman", STHeiti, serif;
+  font-family: "Droid Serif", Georgia, "Times New Roman", "PingFang SC", "Hiragino Sans GB", "WenQuanYi Micro Hei","Microsoft Yahei", serif;
   font-size: 87.5%;
 }
 
@@ -61,7 +61,7 @@ table th {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Arial, "PingFang SC", "Hiragino Sans GB", "WenQuanYi Micro Hei","Microsoft Yahei", sans-serif;
 }
 
 input[type="text"],
@@ -123,6 +123,10 @@ textarea {
   color: #333;
   font-size: 2.5em;
 }
+#logo img {
+    max-height: 64px;
+}
+
 .description {
   margin: .5em 0 0;
   color: #999;
@@ -351,22 +355,17 @@ textarea {
 .widget {
   margin-bottom: 30px;
 }
-.widget-title {
-}
 .widget-list {
   list-style: none;
   padding: 0;
 }
 .widget-list li {
   margin: 5px 0;
-  line-height: 1.5;
+  line-height: 1.6;
 }
 
 .widget-list li ul {
   margin-left: 15px;
-}
-
-.widget-list a:hover {
 }
 
 
